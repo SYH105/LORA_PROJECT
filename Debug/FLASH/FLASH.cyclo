@@ -1,0 +1,5 @@
+../FLASH/FLASH.c:8:17:FLASH_GetSlotAddr	1
+../FLASH/FLASH.c:13:13:FLASH_WriteHalfWord	1
+../FLASH/FLASH.c:19:6:FLASH_SaveSlot	3
+../FLASH/FLASH.c:60:6:FLASH_LoadSlot	4
+../FLASH/FLASH.c:95:6:FLASH_LoadSlots	2

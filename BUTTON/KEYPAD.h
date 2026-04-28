@@ -1,0 +1,33 @@
+#ifndef KEYPAD_H
+#define KEYPAD_H
+
+#include "stm32f1xx_hal.h"
+
+#define KEYPAD_NOT_PRESSED '\0'
+
+/* Row pins */
+#define KEYPAD_ROW_1_PORT GPIOA
+#define KEYPAD_ROW_2_PORT GPIOA
+#define KEYPAD_ROW_3_PORT GPIOA
+#define KEYPAD_ROW_4_PORT GPIOA
+#define KEYPAD_ROW_1_PIN  GPIO_PIN_4
+#define KEYPAD_ROW_2_PIN  GPIO_PIN_5
+#define KEYPAD_ROW_3_PIN  GPIO_PIN_6
+#define KEYPAD_ROW_4_PIN  GPIO_PIN_7
+
+/* Column pins */
+#define KEYPAD_COLUMN_1_PORT GPIOA
+#define KEYPAD_COLUMN_2_PORT GPIOA
+#define KEYPAD_COLUMN_3_PORT GPIOA
+#define KEYPAD_COLUMN_4_PORT GPIOA
+#define KEYPAD_COLUMN_1_PIN  GPIO_PIN_0
+#define KEYPAD_COLUMN_2_PIN  GPIO_PIN_1
+#define KEYPAD_COLUMN_3_PIN  GPIO_PIN_2
+#define KEYPAD_COLUMN_4_PIN  GPIO_PIN_3
+
+/* 함수 선언 */
+void KEYPAD_Init(void);
+char KEYPAD_Read(void);
+char KEYPAD_Get_Key(void);
+
+#endif

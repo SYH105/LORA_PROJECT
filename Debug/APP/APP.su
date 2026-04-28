@@ -1,0 +1,7 @@
+../APP/APP.c:32:16:BuildPacket	32	static
+../APP/APP.c:109:13:TX_ClearBuffer	8	static
+../APP/APP.c:115:13:TX_AddChar	16	static
+../APP/APP.c:130:13:TX_DeleteChar	4	static
+../APP/APP.c:145:6:APP_Init	16	static
+../APP/APP.c:158:6:APP_Run	88	static
+../APP/APP.c:444:13:ProcessReceivedPacket	32	static

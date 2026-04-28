@@ -1,0 +1,9 @@
+../UI/SSD1306.c:8:6:ssd1306_W_Command	32	static
+../UI/SSD1306.c:20:6:ssd1306_W_Data	32	static
+../UI/SSD1306.c:28:6:ssd1306_Init	8	static
+../UI/SSD1306.c:65:6:ssd1306_Clear	144	static
+../UI/SSD1306.c:79:6:ssd1306_Fill_Screen	152	static
+../UI/SSD1306.c:96:6:ssd1306_Set_Coord	16	static
+../UI/SSD1306.c:103:6:ssd1306_W_Char	56	static
+../UI/SSD1306.c:136:6:ssd1306_W_String	24	static
+../UI/SSD1306.c:163:6:ssd1306_DrawBitmap	24	static

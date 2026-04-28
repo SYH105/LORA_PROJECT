@@ -1,0 +1,5 @@
+../UI/UI.c:17:6:UI_DrawRX	40	static
+../UI/UI.c:33:6:UI_DrawMenu	16	static
+../UI/UI.c:51:6:UI_DrawTX	56	static
+../UI/UI.c:123:6:UI_DrawSaveEdit	72	static
+../UI/UI.c:186:6:UI_DrawSlot	64	static

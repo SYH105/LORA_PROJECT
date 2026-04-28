@@ -1,0 +1,5 @@
+../UI/UI.c:17:6:UI_DrawRX	1
+../UI/UI.c:33:6:UI_DrawMenu	4
+../UI/UI.c:51:6:UI_DrawTX	10
+../UI/UI.c:123:6:UI_DrawSaveEdit	9
+../UI/UI.c:186:6:UI_DrawSlot	1

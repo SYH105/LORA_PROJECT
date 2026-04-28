@@ -1,0 +1,5 @@
+../FLASH/FLASH.c:8:17:FLASH_GetSlotAddr	16	static
+../FLASH/FLASH.c:13:13:FLASH_WriteHalfWord	16	static
+../FLASH/FLASH.c:19:6:FLASH_SaveSlot	48	static
+../FLASH/FLASH.c:60:6:FLASH_LoadSlot	32	static
+../FLASH/FLASH.c:95:6:FLASH_LoadSlots	24	static

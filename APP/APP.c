@@ -213,7 +213,7 @@ void APP_Run(void)
         {
             if(sx1276_is_packet_available(&lora))
             {
-                uint8_t buf[32];
+            	uint8_t buf[64]; //HEADER1/HEADER2/ID/LEN/DATA/CHK => 최대 36바이트
                 uint8_t err;
 
                 uint8_t len = sx1276_fetch_received(&lora, buf, sizeof(buf), &err);
@@ -455,7 +455,7 @@ static void ProcessReceivedPacket(uint8_t *buf, uint8_t len)
     uint8_t rx_len = buf[3];
 
     /* 4. 데이터 길이 검증 */
-    if(rx_len > 30) return;
+    if(rx_len > MAX_LEN) return;
 
     /* 5. 체크섬 검증 */
     uint8_t chk = 0;

@@ -4392,31 +4392,31 @@ LOAD C:/ST/STM32CubeIDE_1.18.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.18.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD C:/ST/STM32CubeIDE_1.18.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x10c3f
- .debug_info    0x00000000      0xbe4 ./APP/APP.o
- .debug_info    0x00000be4      0x435 ./BUTTON/KEYPAD.o
- .debug_info    0x00001019     0x1405 ./Core/Src/main.o
- .debug_info    0x0000241e     0x1156 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_info    0x00003574      0x683 ./Core/Src/stm32f1xx_it.o
- .debug_info    0x00003bf7      0x168 ./Core/Src/sysmem.o
- .debug_info    0x00003d5f      0x222 ./Core/Src/system_stm32f1xx.o
- .debug_info    0x00003f81       0x30 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_info    0x00003fb1      0x704 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_info    0x000046b5      0xa87 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_info    0x0000513c      0x6d2 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_info    0x0000580e      0x4f8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
- .debug_info    0x00005d06      0x777 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
- .debug_info    0x0000647d      0x5ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_info    0x00006a28     0x2524 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_info    0x00008f4c      0x7d5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_info    0x00009721     0x142d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
- .debug_info    0x0000ab4e     0x2959 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_info    0x0000d4a7     0x149b ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
- .debug_info    0x0000e942      0x38c ./FLASH/FLASH.o
- .debug_info    0x0000ecce     0x11b6 ./LORA/SX1276.o
- .debug_info    0x0000fe84      0x991 ./UI/SSD1306.o
- .debug_info    0x00010815      0x305 ./UI/UI.o
- .debug_info    0x00010b1a      0x125 ./UI/fonts.o
+.debug_info     0x00000000    0x10c2f
+ .debug_info    0x00000000      0xbd4 ./APP/APP.o
+ .debug_info    0x00000bd4      0x435 ./BUTTON/KEYPAD.o
+ .debug_info    0x00001009     0x1405 ./Core/Src/main.o
+ .debug_info    0x0000240e     0x1156 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_info    0x00003564      0x683 ./Core/Src/stm32f1xx_it.o
+ .debug_info    0x00003be7      0x168 ./Core/Src/sysmem.o
+ .debug_info    0x00003d4f      0x222 ./Core/Src/system_stm32f1xx.o
+ .debug_info    0x00003f71       0x30 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_info    0x00003fa1      0x704 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_info    0x000046a5      0xa87 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_info    0x0000512c      0x6d2 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_info    0x000057fe      0x4f8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
+ .debug_info    0x00005cf6      0x777 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
+ .debug_info    0x0000646d      0x5ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_info    0x00006a18     0x2524 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_info    0x00008f3c      0x7d5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_info    0x00009711     0x142d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+ .debug_info    0x0000ab3e     0x2959 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_info    0x0000d497     0x149b ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_info    0x0000e932      0x38c ./FLASH/FLASH.o
+ .debug_info    0x0000ecbe     0x11b6 ./LORA/SX1276.o
+ .debug_info    0x0000fe74      0x991 ./UI/SSD1306.o
+ .debug_info    0x00010805      0x305 ./UI/UI.o
+ .debug_info    0x00010b0a      0x125 ./UI/fonts.o
 
 .debug_abbrev   0x00000000     0x3022
  .debug_abbrev  0x00000000      0x2f5 ./APP/APP.o
